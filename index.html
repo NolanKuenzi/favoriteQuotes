@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link  href="./src/main.css" type="text/css" rel="stylesheet" />
+    <title>Favorite Quotes</title>
+</head>
+
+<body>
+  <h1>Favorite Quotes</h1>
+  <div id="container_structure">
+      <input type="button" name="button" id="button" value="GENERATE A QUOTE" onclick="ranQuote(); this.value='GENERATE ANOTHER QUOTE!';"></input>	
+      <p id="quote">Click the button above to see one of my favorite quotes!</p>
+      <div class="image-container">	
+        <input type="image" id="tweetImage" src="./src/twitter_icon.png" onclick="tweetQuote()"></input>
+        <div id="TTQ">Tweet this quote!</div>	
+      </div>
+
+    <footer>		
+      <div id="footerText"><h4>Copyright © 2018 Nolan Kuenzi. Made for the freeCodeCamp Development Challenge: Build a Random Quote Machine.</h4></div>
+   </footer>
+  </div>
+<script type="text/javascript" src="./public/main.js"></script>
+</body>
+</html>

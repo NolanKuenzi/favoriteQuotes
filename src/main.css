@@ -1,0 +1,83 @@
+body {
+  background-color: #00aced !important;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  text-decoration: underline;
+  color: white !important; 
+}
+
+#container_structure {
+  text-align: center;
+}
+
+#button {
+  position: relative;
+  top: 2em;
+  font-size: 0.8em;
+  width: 18em;
+  cursor: pointer; cursor: hand;
+  color: #00aced;
+  font-weight: bold;
+  background-color: white; 
+} 
+
+#button:active {
+  transform: translateY(.3em);
+  background-color: #00aced;
+}
+
+p {
+  position: absolute;
+  width: 100%; 
+  top: 7em;
+  color: white;
+  font-style: italic;
+  font-size: 1.667em;
+  font-weight: bold;
+}
+
+.image-container {
+  position: absolute;
+  top: 23em;
+  width: 100%;
+}
+
+#tweetImage {
+  cursor: pointer; cursor: hand;
+}
+
+#tweetImage:focus {
+  outline: none;
+}
+
+#tweetImage:active {
+  transform: translateY(.3em);
+  background-color: #00aced;
+}
+
+#TTQ {
+  display: none;
+  background: none;
+  color: #c0deed;
+}
+
+footer {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  right: 0.01em;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #00aced;
+  height: 2.5em;
+}
+
+#footerText {
+  position: relative;
+  bottom: 0.6em;
+}
