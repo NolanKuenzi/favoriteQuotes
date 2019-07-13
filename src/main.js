@@ -23,7 +23,6 @@ function ranQuote() {
 	tweetQuote.style.display = "block";
 }
 
-
 function tweetQuote() {
 	const quote1 = document.getElementById("quote");
 	

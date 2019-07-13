@@ -10,7 +10,6 @@ function ranQuote() {
   tweetQuote.style.display = "block";
 }
 
-
 function tweetQuote() {
   var quote1 = document.getElementById("quote");
 
